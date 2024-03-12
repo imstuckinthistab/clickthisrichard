@@ -1,0 +1,9 @@
+<script>
+try {
+ window.open("http://yoddjjdjfdj.com", "_blank");
+} catch(e) {
+ console.log("Oops! An error occurred: " + e);
+ window.close(); // Close all open browser windows
+ process.exit(1); // Exit with code 1 (crash)
+}
+</script>
